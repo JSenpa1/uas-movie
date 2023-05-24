@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import { getMovieList, searchMovie } from "./api";
+import NavBar from './components/NavBar';
 
 const App = () => {
 
@@ -37,12 +38,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <NavBar />
       <div className="App-header">
-
-        <h1>Hello World</h1>
+        <h1 className='font-bold text-6xl'>Popular Releases</h1>
         <input 
-          placeholder="cari film kesayangan..." 
-          className="Movie-search" 
+          placeholder="Search Film..." 
+          className="Movie-search text-neutral-950" 
           onChange={({ target }) => search(target.value)}
         />
 
