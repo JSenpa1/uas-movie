@@ -1,14 +1,14 @@
 import './Upcoming.css';
 import React, { useEffect, useState } from 'react';
-import { getMovieList, searchMovie, getUpcomingList, getPlayingNowList } from "../api";
+import { getMovieList, searchMovie, getUpcomingList, getTopRatedList } from "../api";
 import NavBar from './NavBar';
 
-const PlayingNow = () => {
+const TopRated = () => {
 
   const [popularMovies, setPopularMovies] = useState([])
 
   useEffect( () =>  {
-    getPlayingNowList().then((result) => {
+    getTopRatedList().then((result) => {
       setPopularMovies(result)
     })
   }, [])
@@ -40,7 +40,7 @@ const PlayingNow = () => {
     <div className="App">
       <NavBar />
       <div className="App-header">
-        <h1 className='font-bold text-6xl'>Playing On Theatres</h1>
+        <h1 className='font-bold text-6xl'>Top Rated Movies</h1>
         <input 
           placeholder="Search Film..." 
           className="Movie-search text-neutral-950" 
@@ -56,4 +56,4 @@ const PlayingNow = () => {
   );
 }
 
-export default PlayingNow;
+export default TopRated;

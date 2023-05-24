@@ -44,7 +44,7 @@ const NavBar = () => {
           <li><Link to='/Popular'>Popular</Link></li>
           <li><Link to='/UpcomingPage'>Upcoming</Link></li>
           <li><Link to='/PlayingNowPage'>Playing Now</Link></li>
-          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/TopRatedPage'>Top Rated</Link></li>
           <li><Link to='/'>Home</Link></li>
         </ul>
       </nav>

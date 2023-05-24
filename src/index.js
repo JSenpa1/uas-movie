@@ -7,6 +7,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Popular from './pages/Popular';
 import UpcomingPage from './pages/UpcomingPage';
 import PlayingNowPage from './pages/PlayingNowPage';
+import TopRatedPage from './pages/TopRatedPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <Route path='/Popular' element={<Popular />}></Route>
       <Route path='/UpcomingPage' element={<UpcomingPage />}></Route>
       <Route path='/PlayingNowPage' element={<PlayingNowPage />}></Route>
+      <Route path='/TopRatedPage' element={<TopRatedPage />}></Route>
     </Routes>
   </Router>
 );

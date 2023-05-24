@@ -22,3 +22,8 @@ export const getPlayingNowList = async() => {
     const movie = await axios.get(`${baseUrl}/movie/now_playing?page=1&api_key=${apiKey}`)
     return movie.data.results
 }
+
+export const getTopRatedList = async() => {
+    const movie = await axios.get(`${baseUrl}/movie/top_rated?page=1&api_key=${apiKey}`)
+    return movie.data.results
+}

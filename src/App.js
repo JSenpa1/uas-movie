@@ -5,7 +5,8 @@ import NavBar from './components/NavBar';
 
 const App = () => {
 
-  const [popularMovies, setPopularMovies] = useState([])
+  const [popularMovies, setPopularMovies] = useState([]);
+  const [watchList, setWatchList] = useState([]);
 
   useEffect( () =>  {
     getMovieList().then((result) => {
