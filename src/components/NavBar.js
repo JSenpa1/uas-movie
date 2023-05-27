@@ -41,11 +41,11 @@ const NavBar = () => {
 
       <nav>
         <ul className='md:flex gap-8 p-6 uppercase bg-white/10'>
+          <li><Link to='/'>Home</Link></li>
           <li><Link to='/Popular'>Popular</Link></li>
           <li><Link to='/UpcomingPage'>Upcoming</Link></li>
           <li><Link to='/PlayingNowPage'>Playing Now</Link></li>
           <li><Link to='/TopRatedPage'>Top Rated</Link></li>
-          <li><Link to='/'>Home</Link></li>
         </ul>
       </nav>
     </div>

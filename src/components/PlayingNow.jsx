@@ -16,15 +16,19 @@ const PlayingNow = () => {
   const PopularMovieList = () => {
     return popularMovies.map((movie, i) => {
       return (
-          <div className="Movie-wrapper" key={i}>
-            <div className="Movie-title">{movie.title}</div>
-            <img 
-              alt='filmImage'
-              className="Movie-image" 
-              src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} 
-            />
-            <div className="Movie-date">Release: {movie.release_date}</div>
-            <div className="Movie-rate">{movie.vote_average}</div>
+        <div className="Movie-wrapper" key={i}>
+            <div className='flip-card'>
+                <img 
+                  alt='filmImage'
+                  className="Movie-image rounded-xl" 
+                  src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} 
+                />
+                <div className='card-body'>
+                  <div className="Movie-title">{movie.title}</div>
+                  <div className="Movie-date">Release: {movie.release_date}</div>
+                  <div className="Movie-rate">{movie.vote_average}</div>
+                </div>
+              </div>
           </div>
       );
     })

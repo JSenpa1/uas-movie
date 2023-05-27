@@ -22,12 +22,14 @@
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  margin-bottom: 5%;
 }
 
 .Movie-wrapper {
   color: black;
   width: 250px;
-  background-color: antiquewhite;
+  background-color: black;
+  overflow: hidden;
 }
 
 .Movie-search {
@@ -37,6 +39,11 @@
   padding: 16px;
   font-weight: bold;
   width: 475px;
+  border-radius: 20px;
+}
+
+.Movie-search:focus, input:focus {
+  outline: none;
 }
 
 .Movie-title {
@@ -52,7 +59,7 @@
 }
 
 .Movie-rate {
-  color: blue;
+  color: yellow;
   margin-bottom: 24px;
   font-weight: bold;
   font-size: 1.2em;
@@ -67,4 +74,19 @@
 h1 {
   margin-top: 10%;
   margin-bottom: 3%;
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: -120%;
+  height: 500px;
+  width: 100%;
+  color: white;
+}
+
+.flip-card:hover .card-body {
+  transform: rotateY(180deg);
+  right: 0;
 }

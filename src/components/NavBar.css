@@ -1,8 +1,22 @@
 .bungkus {
     transition: opacity 0.3s ease-in-out;
+    height: 100px;
   }
   
 .scrolled {
     opacity: 0;
     pointer-events: none;
+}
+
+li {
+  padding-top: 2%;
+  text-align: center;
+  height: 50px;
+  width: 125px;
+}
+
+li:hover {
+  transition: 0.3s;
+  background-color: black;
+  color: white;
 }
