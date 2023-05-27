@@ -33,7 +33,7 @@ export const Home = () => {
     </section>
     </ParallaxLayer>
 
-    <ParallaxLayer speed={0.4} factor={3} sticky={{ start: 0.8, end: 3.5 }}>
+    <ParallaxLayer speed={0.4} factor={3} sticky={{ start: 1, end: 3.5 }}>
       <img src={gif} alt='gif' className='gif'/>
       <img src={gif2} alt='gif2' className='gif2' />
     </ParallaxLayer>
@@ -47,7 +47,7 @@ export const Home = () => {
                     <img src={logo2} className="jarallax-img" alt='parImg'/>
                 </div>
                 <div className="content" data-jarallax-element="-200 0">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestias similique delectus neque expedita harum id numquam repudiandae, ducimus eligendi a rem maiores non suscipit aliquid dolores? Saepe, aliquid ratione.</p>
+                    <p>Lorem Ipsum All the way</p>
                 </div>
             </div>
         </div>
