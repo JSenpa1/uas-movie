@@ -8,12 +8,15 @@ import Popular from './pages/Popular';
 import UpcomingPage from './pages/UpcomingPage';
 import PlayingNowPage from './pages/PlayingNowPage';
 import TopRatedPage from './pages/TopRatedPage';
+import HomePage from './pages/HomePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Routes>
-      <Route path='/' element={<App />}></Route>
+      <Route path='/' element={<HomePage />}></Route>
+      <Route path='/HomePage' element={<HomePage />}></Route>
+      <Route path='/Popular' element={<App />}></Route>
       <Route path='/Popular' element={<Popular />}></Route>
       <Route path='/UpcomingPage' element={<UpcomingPage />}></Route>
       <Route path='/PlayingNowPage' element={<PlayingNowPage />}></Route>
