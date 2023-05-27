@@ -1,6 +1,7 @@
 .bungkus {
     transition: opacity 0.3s ease-in-out;
     height: 100px;
+    z-index: 99;
   }
   
 .scrolled {
