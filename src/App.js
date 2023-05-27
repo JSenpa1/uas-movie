@@ -6,7 +6,8 @@ import NavBar from './components/NavBar';
 const App = () => {
 
   const [popularMovies, setPopularMovies] = useState([]);
-  const [watchList, setWatchList] = useState([]);
+
+  
 
   useEffect( () =>  {
     getMovieList().then((result) => {
@@ -20,6 +21,7 @@ const App = () => {
           <div className="Movie-wrapper" key={i}>
             <div className="Movie-title">{movie.title}</div>
             <img 
+              alt='logo'
               className="Movie-image" 
               src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} 
             />
