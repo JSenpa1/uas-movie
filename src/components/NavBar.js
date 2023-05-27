@@ -37,7 +37,7 @@ const NavBar = () => {
         <h1><span className='uppercase text-4xl'>Logo</span></h1>
       </div> */}
 
-      <img className='w-23 h-20' src={logo} />
+      <img className='w-23 h-20' src={logo} alt='logo'/>
 
       <nav>
         <ul className='md:flex gap-8 p-6 uppercase bg-white/10'>

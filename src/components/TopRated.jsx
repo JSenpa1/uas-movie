@@ -1,6 +1,6 @@
 import './Upcoming.css';
 import React, { useEffect, useState } from 'react';
-import { getMovieList, searchMovie, getUpcomingList, getTopRatedList } from "../api";
+import { searchMovie, getTopRatedList } from "../api";
 import NavBar from './NavBar';
 
 const TopRated = () => {
@@ -19,6 +19,7 @@ const TopRated = () => {
           <div className="Movie-wrapper" key={i}>
             <div className="Movie-title">{movie.title}</div>
             <img 
+              alt='filmImage'
               className="Movie-image" 
               src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} 
             />

@@ -21,7 +21,7 @@ const App = () => {
           <div className="Movie-wrapper" key={i}>
             <div className="Movie-title">{movie.title}</div>
             <img 
-              alt='logo'
+              alt='filmImage'
               className="Movie-image" 
               src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} 
             />
