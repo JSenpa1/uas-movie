@@ -1,26 +1,26 @@
 const contacts = [
     {
-        image: "https://pbs.twimg.com/profile_images/1544722618275827713/9-aMN_Wb_400x400.jpg",
+        image: "https://cdn-images-1.medium.com/max/280/1*xr9daGqNrlAudic93rerMw@2x.png",
         name: "Jonathan Susanto",
-        aboutMe: "Lorem Ipsum Dolor Sir Amate"
+        aboutMe: "No I don't like Javascript"
     },
 
     {
-        image: "#",
-        name: "Louis",
-        aboutMe: "Lorem Ipsum Dolor Sir Amate"
+        image: "https://upload-os-bbs.hoyolab.com/upload/2021/08/03/83957311/81355cecd709d045fa4e7f9fb2b7fa8f_6232800814100403169.png?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,png",
+        name: "Louis Gabriel Hernandes",
+        aboutMe: "Ad Astra Abyssosque"
     },
 
     {
-        image: "#",
-        name: "Thaariq",
-        aboutMe: "Lorem Ipsum Dolor Sir Amate"
+        image: "https://i1.sndcdn.com/artworks-5aDBMLz7U2zE8hoL-D0dFww-t500x500.jpg",
+        name: "Muhammad Thaariq",
+        aboutMe: "Ambatukammmmmmmmmmmm"
     },
 
     {
-        image: "#",
-        name: "Geoffta",
-        aboutMe: "Lorem Ipsum Dolor Sir Amate"
+        image: "https://nextluxury.com/wp-content/uploads/funny-profile-pictures-2.jpg",
+        name: "Geoffta Handiyan Akwila",
+        aboutMe: "UMN dimari ada ninok jangan lari"
     }
 ];
 

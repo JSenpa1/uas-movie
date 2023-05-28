@@ -40,7 +40,7 @@ const NavBar = () => {
       <img className='w-23 h-20' src={logo} alt='logo' />
 
       <nav>
-        <ul className='md:flex gap-8 p-6 uppercase bg-white/10'>
+        <ul className='hidden md:flex gap-8 p-6 uppercase bg-white/10'>
           <li><Link to='/HomePage'>Home</Link></li>
           <li><Link to='/Popular'>Popular</Link></li>
           <li><Link to='/UpcomingPage'>Upcoming</Link></li>
@@ -48,6 +48,7 @@ const NavBar = () => {
           <li><Link to='/TopRatedPage'>Top Rated</Link></li>
           <li><Link to='/AboutUsPage'>Contacts</Link></li>
         </ul>
+
       </nav>
     </div>
   )
