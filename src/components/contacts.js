@@ -12,9 +12,9 @@ const contacts = [
     },
 
     {
-        image: "https://i1.sndcdn.com/artworks-5aDBMLz7U2zE8hoL-D0dFww-t500x500.jpg",
+        image: "https://i.postimg.cc/cLG0zfpK/image-2023-05-28-193929284.png",
         name: "Muhammad Thaariq",
-        aboutMe: "Ambatukammmmmmmmmmmm"
+        aboutMe: "Dua tiga burung kenari  inabikari sunawachi eien nari"
     },
 
     {
