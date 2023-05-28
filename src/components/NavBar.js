@@ -37,7 +37,7 @@ const NavBar = () => {
         <h1><span className='uppercase text-4xl'>Logo</span></h1>
       </div> */}
 
-      <img className='w-23 h-20' src={logo} alt='logo'/>
+      <img className='w-23 h-20' src={logo} alt='logo' />
 
       <nav>
         <ul className='md:flex gap-8 p-6 uppercase bg-white/10'>
@@ -46,6 +46,7 @@ const NavBar = () => {
           <li><Link to='/UpcomingPage'>Upcoming</Link></li>
           <li><Link to='/PlayingNowPage'>Playing Now</Link></li>
           <li><Link to='/TopRatedPage'>Top Rated</Link></li>
+          <li><Link to='/AboutUsPage'>Contacts</Link></li>
         </ul>
       </nav>
     </div>

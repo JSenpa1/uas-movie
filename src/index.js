@@ -9,6 +9,7 @@ import UpcomingPage from './pages/UpcomingPage';
 import PlayingNowPage from './pages/PlayingNowPage';
 import TopRatedPage from './pages/TopRatedPage';
 import HomePage from './pages/HomePage';
+import AboutUsPage from './pages/AboutUsPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
       <Route path='/UpcomingPage' element={<UpcomingPage />}></Route>
       <Route path='/PlayingNowPage' element={<PlayingNowPage />}></Route>
       <Route path='/TopRatedPage' element={<TopRatedPage />}></Route>
+      <Route path='/AboutUsPage' element={<AboutUsPage />}></Route>
     </Routes>
   </Router>
 );
