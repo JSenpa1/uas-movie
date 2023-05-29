@@ -2,26 +2,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px;
     flex-wrap: wrap;
-    padding-top: 10%;
+    padding-top: 10%; */
+    padding: 20px;
 }
 
 .card {
-    padding: 30px 50px;
+    /* padding: 0px 50px;
     background: rgba( 255, 255, 255, 0.9 );
     box-shadow: 0 8px 32px 0 rgba(5, 159, 206, 0.37);
     backdrop-filter: blur( 15px );
     -webkit-backdrop-filter: blur( 15px );
     height: 500px;
     width: 30%;
-    border-radius: 18px;
+    border-radius: 18px; */
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin-top: 90px; 
+    margin-bottom: -90px; 
+    color: whitesmoke;
 }
 
 .card img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 100%;
+
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -34,10 +47,8 @@ h2 {
     text-align: center;
 }
 
-body {
-    background-image: url('./Background.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
+@media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
