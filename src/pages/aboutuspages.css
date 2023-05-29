@@ -1,0 +1,6 @@
+.container-about-us {
+    background-image: url('../components/Background.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
