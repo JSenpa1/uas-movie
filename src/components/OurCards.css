@@ -34,5 +34,10 @@ h2 {
     text-align: center;
 }
 
-
+body {
+    background-image: url('./Background.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
