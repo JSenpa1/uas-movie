@@ -8,7 +8,7 @@ function AboutUsPage() {
   return (
     <div className='container-about-us'>
         <NavBar />
-        {contacts.map(OurCards)}
+          {contacts.map(OurCards)}
     </div>
   )
 }

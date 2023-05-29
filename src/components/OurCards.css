@@ -1,5 +1,9 @@
 .card-bungkus {
-    display: flex;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 16px;
+    margin-right: 45px;
+    margin-left: 45px;
     align-items: center;
     justify-content: center;
     /* gap: 20px;
@@ -21,12 +25,12 @@
     backdrop-filter: blur(50px);
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
-    margin-top: 90px; 
-    margin-bottom: -90px; 
+    margin-top: 100px; 
+    margin-bottom: -100px; 
     color: whitesmoke;
+    height: 420px;
 }
 
 .card img {
@@ -46,9 +50,3 @@ h2 {
     margin-top: 8%;
     text-align: center;
 }
-
-@media (max-width: 768px) {
-    .card {
-      width: 100%;
-    }
-  }
