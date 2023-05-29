@@ -20,7 +20,7 @@ const contacts = [
     {
         image: "https://nextluxury.com/wp-content/uploads/funny-profile-pictures-2.jpg",
         name: "Geoffta Handiyan Akwila",
-        aboutMe: "UMN dimari ada ninok jangan lari"
+        aboutMe: "No I don't Like Indomie"
     }
 ];
 
