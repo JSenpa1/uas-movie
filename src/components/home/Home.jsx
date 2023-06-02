@@ -2,8 +2,6 @@ import logo from './content1.png';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import gif from './keqing.gif';
-import gif2 from './kuru.gif';
 import realLogo from '../Herta_logo.png';
 import logo2 from './content2.png';
 import React from 'react';
